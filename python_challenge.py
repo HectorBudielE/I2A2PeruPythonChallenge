@@ -2001,3 +2001,33 @@ def evaluate_hand(hand):
 
 
     return hand_final_value
+
+
+class PokerHand:
+    def __init__(self, cards):
+        self.cards = cards.split()
+
+    def hand_value(self):
+        hand_final_value = evaluate_hand(self.cards)
+        return hand_final_value
+
+    def compare_with(self,new_poker_hand):        
+        first_value = self.hand_value()
+        second_value = new_poker_hand.hand_value()
+        if (first_value <= second_value):
+            return "WIN"
+        else:
+            return "LOSS"
+
+    def printing_hand(self):
+        print(self.cards)
+        return 0
+
+
+if __name__ == '__main__':
+    print("The following two hands will be compared: ")
+    print("First hand:  TC TH 5C 5H KH")
+    print("Second hand: 9C 9H 5C 5H AC")
+    print("The expected result is WIN (First hand wins over the second)")
+    result_test = PokerHand("TC TH 5C 5H KH").compare_with(PokerHand("9C 9H 5C 5H AC"))
+    print("The calculated result is: {}".format(result_test))
