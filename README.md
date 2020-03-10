@@ -1,73 +1,36 @@
-# I2A2PeruPythonChallenge
-Python Challenge for I2A2 Peru provided by DataH
+# I2A2 Peru Python Challenge
+Python Challenge for I2A2 Peru provided by DataH. This challenge consists on writing an algorithm to rank poker hands. 
 
-## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The specifications for the problem are specified in the file python_challenge.pdf.
 
-### Prerequisites
+The algorithm used for the solution of the problem and the its explanation is specified in the file solution.md
 
-What things you need to install the software and how to install them
 
-```
-Give examples
-```
+### Instructions
 
-### Installing
-A step by step series of examples that tell you how to get a development env running
+1. Clone the repository and navigate to the downloaded folder.
+	
+	```	
+		git clone https://github.com/HectorBudielE/I2A2PeruPythonChallenge.git
+		cd I2A2PeruPythonChallenge
+	```
 
-Say what the step will be
+2. The main program is located in the python_challenge.py file. It contains all the functions and classes used for the solution. The file can be run by using the following command:
 
-```
-Give the example
-```
+	```
+		$ python python_challenge.py
+	```
+It shows an example of the comparison between 2 hands.
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-Explain how to run automated tests for this system
-
-### Break down into end to end tests
-Explain what these tests test and why
-
-```
-Give an example
-```
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+3. The test file for the solution (test.py) is located in the same directory as the main program and can be run by using the following command while on the parent directory I2A2PeruPythonChallenge: 
+	
+	```
+		$ python test.py
+	```
+The test file includes tests for some functions and for the hand comparison as well.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
