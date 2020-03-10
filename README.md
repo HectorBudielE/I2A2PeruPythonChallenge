@@ -3,7 +3,7 @@ Python Challenge for I2A2 Peru provided by DataH. This challenge consists on wri
 
 The specifications for the problem are specified in the file python_challenge.pdf.
 
-The algorithm used for the solution of the problem and the its explanation is specified in the file solution.md
+The algorithm used for the solution of the problem and the its explanation is specified in the file solution_description.md
 
 
 ### Instructions
